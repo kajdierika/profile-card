@@ -1,0 +1,101 @@
+
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vh - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about {
+  text-align: justify;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.headline {
+  margin-top: -155px;
+  text-align: center;
+  padding-left: 30%;
+}
+
+.content {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  background: url('assets/IMG_1161.JPG') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .6);
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 100px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: sepia(50%);
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+h1 {
+  font-family: Arizonia;
+  font-size: 30px;
+  color: darkslateblue;
+}
+
+.social-icon {
+  font-size: 130%;
+  color: darkslateblue
+}
+
+.social-icon:hover {
+  color: orange;
+}
+
+.fa-map-marker, .location, em {
+  color: darkslateblue
+}
+
+em {
+  font-weight: 700;
+}
