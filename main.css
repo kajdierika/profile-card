@@ -11,7 +11,7 @@
 
 .profile-card {
   width: 480px;
-  max-width: calc(100vh - 10px);
+  max-width: calc(100vw - 10px);
 }
 
 body {
