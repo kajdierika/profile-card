@@ -57,7 +57,7 @@ li {
 }
 
 body {
-  background: url('assets/irish%20sea57.JPG') no-repeat center center fixed;
+  background: url('assets/DSCN2384.JPG') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -84,15 +84,15 @@ h1 {
 
 .social-icon {
   font-size: 130%;
-  color: darkslateblue
+  color: darkslateblue;
 }
 
 .social-icon:hover {
-  color: crimson;
+  color: darkturquoise;
 }
 
 .fa-map-marker, .location, em {
-  color: darkslateblue
+  color: darkslateblue;
 }
 
 em {
